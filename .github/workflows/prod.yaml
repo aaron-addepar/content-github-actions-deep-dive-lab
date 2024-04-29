@@ -3,10 +3,6 @@ name: Deploy to prod bucket
 on: 
   branches: 
     - main
-
-name: Deploy to Non-Production
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
