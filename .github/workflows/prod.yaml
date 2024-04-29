@@ -1,8 +1,10 @@
 name: Deploy to prod bucket
 
 on: 
-  branches: 
-    - main
+  push: 
+    branches: 
+      - main
+      
 jobs:
   build:
     runs-on: ubuntu-latest
