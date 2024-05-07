@@ -1,7 +1,7 @@
 name: Lets Test API Actions
 
-on: workflow_dispatch:
-  types: [test-type]
+on: 
+  workflow_dispatch
 
 jobs:
   execute:
